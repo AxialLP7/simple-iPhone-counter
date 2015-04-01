@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-
+    // initializing bottom label
     @IBOutlet var counterOutputLabel: UILabel!
     
     // counter to record the number of times we clicked the counter
@@ -28,6 +27,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // button for adding one
     @IBAction func addOneButton(sender: UIButton) {
         
         currentCount++
@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         
     }
 
+    // button for adding two
     @IBAction func addTwoButton(sender: UIButton) {
         currentCount += 2
         
