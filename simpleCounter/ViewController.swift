@@ -47,5 +47,7 @@ class ViewController: UIViewController {
         counterOutputLabel.textColor = UIColor.redColor()
     }
 
+    @IBOutlet var imageInsertHere: UIImageView!
+    
 }
 
